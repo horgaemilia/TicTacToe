@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="TicTacToe.css">
+    <script type="text/javascript" src="TicTacToe.js"></script>
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div class="Intro">
+        <h3>Tic Tac Toe Game</h3>
+        <p>Please choose your icon</p>
+        <p id="test"></p>
+        <button type="button" id="x" class="btn" onClick="setFigure('x')"><span class="SpanX">X</span></button>
+        <button type="button" id="o" class="btn"  onClick="setFigure('o')"><span class="SpanO">O</span></button>
+    </div>
+    <div class="gameBoard">
+            <div id="first" onClick="icon('first')" class="game-field"></div>
+            <div id="second" onClick="icon('second')" class="game-field"></div>
+            <div id="third" onClick="icon('third')" class="game-field"></div>
+            <div id="fourth" onClick="icon('fourth')" class="game-field"></div>
+            <div id="fifth" onClick="icon('fifth')" class="game-field"></div>
+            <div id="sixth" onClick="icon('sixth')" class="game-field"></div>
+        <div id="seventh" onClick="icon('seventh')" class="game-field"></div>
+            <div id="eight" onClick="icon('eight')" class="game-field"></div>
+            <div id="ninth" onClick="icon('ninth')" class="game-field"></div>
+    </div>
+    <div id="Final">
+        Winner is:
+    </div>
+
+
+</body>
+</html>
